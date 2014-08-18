@@ -3,7 +3,7 @@ def median_of_medians(arr, index):
 	# compute the median of medians using the helper function given below
 	mom =  get_median_of_medians(arr)
 	
-	# partitio aroun the median of medians calculated. Thhis sould be done in place, but we have done 
+	# partition aroun the median of medians calculated. Thhis sould be done in place, but we have done 
 	# this using O(n) space. This is also O(n) time.
 	new_arr = []
 	for el in arr:
